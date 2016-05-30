@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mascware.app.myappmascotadatabase.AcercaActivity">
+    <include android:id="@+id/miActionBar"
+        layout="@layout/mi_actionbar"
+        >
+
+    </include>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titlInfoDev"
+        android:id="@+id/tiinfodec"
+
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/miActionBar"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:inputType="textMultiLine"
+        android:textSize="14dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/infoDev"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/tiinfodec"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyAppMascotaDB</string>
+    <string name="title_activity_top">Top 5 Mascotas</string>
+    <string name="nombre">nombre</string>
+    <string name="cantRaiting">5</string>
+    <string name="action_favorite">Top FIve</string>
+    <string name="title_mContact">Contacto</string>
+    <string name="titile_mAbout">Acerca de</string>
+    <string name="form_username">Nombre</string>
+    <string name="form_correo">Correo Electrónico</string>
+    <string name="form_mensaje">Mensaje</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="infoDev">Programa creado y diseñado por Miguel Santis \n
+        \nRealizado para el curso del Desarrollo Android de Coursera \n
+        \nGracias por darte el tiempo de ver y revisar este programa \n
+        \nUn saludo.
+    </string>
+    <string name="titlInfoDev">Información:</string>
+</resources>
